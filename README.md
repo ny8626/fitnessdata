@@ -76,85 +76,87 @@ These signals were used to estimate variables of the feature vector for each pat
 
 ## Code Book of the tidy data set that is genereated by the uploaded run_analysis.R:
 
-Personnel : Unique index of 30 volunteers
-ActivityNm : 6 activities: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING STANDING and LAYING
-tBodyAcc-mean()-X : Mean value of body X-axial acceleration signals which is separated from the accelerometerand gyroscope 3-axial raw signals.
-tBodyAcc-mean()-Y : Mean value of body Y-axial acceleration signals which is separated from the accelerometerand gyroscope 3-axial raw signals.
-tBodyAcc-mean()-Z : Mean value of body Z-axial acceleration signals which is separated from the accelerometerand gyroscope 3-axial raw signals.
-tBodyAcc-std()-X : Standard deviation of body X-axial acceleration signals which is separated from the accelerometerand gyroscope 3-axial raw signals.
-tBodyAcc-std()-Y : Standard deviation of body Y-axial acceleration signals which is separated from the accelerometerand gyroscope 3-axial raw signals.
-tBodyAcc-std()-Z : Standard deviation of body Z-axial acceleration signals which is separated from the accelerometerand gyroscope 3-axial raw signals.
-tGravityAcc-mean()-X : Mean value of gravity X-axial acceleration signals which is separated from the accelerometerand gyroscope 3-axial raw signals.
-tGravityAcc-mean()-Y : Mean value of gravity Y-axial acceleration signals which is separated from the accelerometerand gyroscope 3-axial raw signals.
-tGravityAcc-mean()-Z : Mean value of gravity Z-axial acceleration signals which is separated from the accelerometerand gyroscope 3-axial raw signals.
-tGravityAcc-std()-X : Standard deviation of gravity X-axial acceleration signals which is separated from the accelerometerand gyroscope 3-axial raw signals.
-tGravityAcc-std()-Y : Standard deviation of gravity Y-axial acceleration signals which is separated from the accelerometerand gyroscope 3-axial raw signals.
-tGravityAcc-std()-Z : Standard deviation of gravity Z-axial acceleration signals which is separated from the accelerometerand gyroscope 3-axial raw signals.
-tBodyAccJerk-mean()-X :Mean value of the body X-axial linear acceleration were derived in time to obtain Jerk signals. 
-tBodyAccJerk-mean()-Y :Mean value of the body Y-axial linear acceleration were derived in time to obtain Jerk signals. 
-tBodyAccJerk-mean()-Z :Mean value of the body Z-axial linear acceleration were derived in time to obtain Jerk signals. 
-tBodyAccJerk-std()-X : Standard deviation of the body X-axial linear acceleration were derived in time to obtain Jerk signals. 
-tBodyAccJerk-std()-Y : Standard deviation of the body Y-axial linear acceleration were derived in time to obtain Jerk signals.  
-tBodyAccJerk-std()-Z : Standard deviation of the body Z-axial linear acceleration were derived in time to obtain Jerk signals. 
-tBodyGyro-mean()-X : Mean value of X-axial gyroscope 3-axial raw signals
-tBodyGyro-mean()-Y : Mean value of Y-axial gyroscope 3-axial raw signals
-tBodyGyro-mean()-Z : Mean value of Z-axial gyroscope 3-axial raw signals
-tBodyGyro-std()-X : Standard deviation of X-axial gyroscope 3-axial raw signals
-tBodyGyro-std()-Y : Standard deviation of Y-axial gyroscope 3-axial raw signals
-tBodyGyro-std()-Z : Standard deviation of Z-axial gyroscope 3-axial raw signals
-tBodyGyroJerk-mean()-X : Mean value of the body X-axial linear angular velocity were derived in time to obtain Jerk signals.
-tBodyGyroJerk-mean()-Y : Mean value of the body Y-axial linear angular velocity were derived in time to obtain Jerk signals.
-tBodyGyroJerk-mean()-Z : Mean value of the body Z-axial linear angular velocity were derived in time to obtain Jerk signals.
-tBodyGyroJerk-std()-X : Standard deviation of the body X-axial linear angular velocity were derived in time to obtain Jerk signals.
-tBodyGyroJerk-std()-Y : Standard deviation of the body Y-axial linear angular velocity were derived in time to obtain Jerk signals.
-tBodyGyroJerk-std()-Z : Standard deviation of the body Z-axial linear angular velocity were derived in time to obtain Jerk signals.
-tBodyAccMag-mean() : Mean value of calculated magnitude of the tBodyAcc three-dimensional signals by using the Euclidean norm
-tBodyAccMag-std() : Standard deviation of calculated magnitude of the tBodyAcc three-dimensional signals by using the Euclidean norm
-tGravityAccMag-mean() : Mean value of calculated magnitude of the tGravityAcc three-dimensional signals by using the Euclidean norm
-tGravityAccMag-std() : Standard deviation of calculated magnitude of the tGravityAcc three-dimensional signals by using the Euclidean norm
-tBodyAccJerkMag-mean() : Mean value of calculated magnitude of the tBodyAccJerk three-dimensional signals by using the Euclidean norm
-tBodyAccJerkMag-std() : Standard deviation of calculated magnitude of the tBodyAccJerk three-dimensional signals by using the Euclidean norm
-tBodyGyroMag-mean() : Mean value of calculated magnitude of the tBodyGyro three-dimensional signals by using the Euclidean norm
-tBodyGyroMag-std() : Standard deviation of calculated magnitude of the tBodyGyro three-dimensional signals by using the Euclidean norm
-tBodyGyroJerkMag-mean() : Mean value of calculated magnitude of the tBodyGyroJerk three-dimensional signals by using the Euclidean norm
-tBodyGyroJerkMag-std() : Standard deviation of calculated magnitude of the tBodyGyroJerk three-dimensional signals by using the Euclidean norm
-fBodyAcc-mean()-X : Mean value of tBodyAcc X-axial which is applied by Fast Fourier Transform (FFT).
-fBodyAcc-mean()-Y : Mean value of tBodyAcc Y-axial which is applied by Fast Fourier Transform (FFT).
-fBodyAcc-mean()-Z : Mean value of tBodyAcc Z-axial which is applied by Fast Fourier Transform (FFT).
-fBodyAcc-std()-X : Standard deviation of tBodyAcc X-axial which is applied by Fast Fourier Transform (FFT).
-fBodyAcc-std()-Y : Standard deviation of tBodyAcc Y-axial which is applied by Fast Fourier Transform (FFT).
-fBodyAcc-std()-Z : Standard deviation of tBodyAcc Z-axial which is applied by Fast Fourier Transform (FFT).
-fBodyAcc-meanFreq()-X : Weighted average of the X-axial fBodyAcc frequency components.
-fBodyAcc-meanFreq()-Y : Weighted average of the Y-axial fBodyAcc frequency components.
-fBodyAcc-meanFreq()-Z : Weighted average of the Z-axial fBodyAcc frequency components.
-fBodyAccJerk-mean()-X : Mean value of tBodyAccJerk X-axial which is applied by Fast Fourier Transform (FFT).
-fBodyAccJerk-mean()-Y : Mean value of tBodyAccJerk Y-axial which is applied by Fast Fourier Transform (FFT).
-fBodyAccJerk-mean()-Z : Mean value of tBodyAccJerk Z-axial which is applied by Fast Fourier Transform (FFT).
-fBodyAccJerk-std()-X : Standard deviation of tBodyAccJerk X-axial which is applied by Fast Fourier Transform (FFT).
-fBodyAccJerk-std()-Y : Standard deviation of tBodyAccJerk Y-axial which is applied by Fast Fourier Transform (FFT).
-fBodyAccJerk-std()-Z : Standard deviation of tBodyAccJerk Z-axial which is applied by Fast Fourier Transform (FFT).
-fBodyAccJerk-meanFreq()-X : Weighted average of the X-axial fBodyAccJerk frequency components.
-fBodyAccJerk-meanFreq()-Y : Weighted average of the Y-axial fBodyAccJerk frequency components.
-fBodyAccJerk-meanFreq()-Z : Weighted average of the Z-axial fBodyAccJerk frequency components.
-fBodyGyro-mean()-X : Mean value of tBodyGyro X-axial which is applied by Fast Fourier Transform (FFT).
-fBodyGyro-mean()-Y : Mean value of tBodyGyro Y-axial which is applied by Fast Fourier Transform (FFT).
-fBodyGyro-mean()-Z : Mean value of tBodyGyro Z-axial which is applied by Fast Fourier Transform (FFT).
-fBodyGyro-std()-X : Standard deviation of tBodyGyro X-axial which is applied by Fast Fourier Transform (FFT).
-fBodyGyro-std()-Y : Standard deviation of tBodyGyro Y-axial which is applied by Fast Fourier Transform (FFT).
-fBodyGyro-std()-Z : Standard deviation of tBodyGyro Z-axial which is applied by Fast Fourier Transform (FFT).
-fBodyGyro-meanFreq()-X : Weighted average of the X-axial fBodyGyro frequency components.
-fBodyGyro-meanFreq()-Y : Weighted average of the Y-axial fBodyGyro frequency components.
-fBodyGyro-meanFreq()-Z : Weighted average of the Z-axial fBodyGyro frequency components.
-fBodyAccMag-mean() : Mean value of tBodyAccMag which is applied by Fast Fourier Transform (FFT).
-fBodyAccMag-std() : Standard deviation of tBodyAccMag which is applied by Fast Fourier Transform (FFT).
-fBodyAccMag-meanFreq() : Weighted average of the fBodyAccMag frequency components.
-fBodyBodyAccJerkMag-mean() : Mean value of tBodyBodyAccJerkMag which is applied by Fast Fourier Transform (FFT).
-fBodyBodyAccJerkMag-std() : Standard deviation of tBodyBodyAccJerkMag which is applied by Fast Fourier Transform (FFT).
-fBodyBodyAccJerkMag-meanFreq() : Weighted average of the fBodyBodyAccJerkMag frequency components.
-fBodyBodyGyroMag-mean() : Mean value of tBodyBodyGyroMag which is applied by Fast Fourier Transform (FFT).
-fBodyBodyGyroMag-std() : Standard deviation of tBodyBodyGyroMag which is applied by Fast Fourier Transform (FFT).
-fBodyBodyGyroMag-meanFreq() : Weighted average of the fBodyBodyGyroMag frequency components.
-fBodyBodyGyroJerkMag-mean() : Mean value of tBodyBodyGyroJerkMag which is applied by Fast Fourier Transform (FFT).
-fBodyBodyGyroJerkMag-std() : Standard deviation tBodyBodyGyroJerkMag which is applied by Fast Fourier Transform (FFT).
-fBodyBodyGyroJerkMag-meanFreq() : Weighted average of the fBodyBodyGyroJer frequency components.
 
+* Personnel : Unique index of 30 volunteers
+* ActivityNm : 6 activities: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING STANDING and LAYING
+* tBodyAcc-mean()-X : Mean value of body X-axial acceleration signals which is separated from the accelerometerand gyroscope 3-axial raw signals.
+* tBodyAcc-mean()-Y : Mean value of body Y-axial acceleration signals which is separated from the accelerometerand gyroscope 3-axial raw signals.
+* tBodyAcc-mean()-Z : Mean value of body Z-axial acceleration signals which is separated from the accelerometerand gyroscope 3-axial raw signals.
+* tBodyAcc-std()-X : Standard deviation of body X-axial acceleration signals which is separated from the accelerometerand gyroscope 3-axial raw signals.
+* tBodyAcc-std()-Y : Standard deviation of body Y-axial acceleration signals which is separated from the accelerometerand gyroscope 3-axial raw signals.
+* tBodyAcc-std()-Z : Standard deviation of body Z-axial acceleration signals which is separated from the accelerometerand gyroscope 3-axial raw signals.
+* tGravityAcc-mean()-X : Mean value of gravity X-axial acceleration signals which is separated from the accelerometerand gyroscope 3-axial raw signals.
+* tGravityAcc-mean()-Y : Mean value of gravity Y-axial acceleration signals which is separated from the accelerometerand gyroscope 3-axial raw signals.
+* tGravityAcc-mean()-Z : Mean value of gravity Z-axial acceleration signals which is separated from the accelerometerand gyroscope 3-axial raw signals.
+* tGravityAcc-std()-X : Standard deviation of gravity X-axial acceleration signals which is separated from the accelerometerand gyroscope 3-axial raw signals.
+* tGravityAcc-std()-Y : Standard deviation of gravity Y-axial acceleration signals which is separated from the accelerometerand gyroscope 3-axial raw signals.
+* tGravityAcc-std()-Z : Standard deviation of gravity Z-axial acceleration signals which is separated from the accelerometerand gyroscope 3-axial raw signals.
+* tBodyAccJerk-mean()-X :Mean value of the body X-axial linear acceleration were derived in time to obtain Jerk signals. 
+* tBodyAccJerk-mean()-Y :Mean value of the body Y-axial linear acceleration were derived in time to obtain Jerk signals. 
+* tBodyAccJerk-mean()-Z :Mean value of the body Z-axial linear acceleration were derived in time to obtain Jerk signals. 
+* tBodyAccJerk-std()-X : Standard deviation of the body X-axial linear acceleration were derived in time to obtain Jerk signals. 
+* tBodyAccJerk-std()-Y : Standard deviation of the body Y-axial linear acceleration were derived in time to obtain Jerk signals.  
+* tBodyAccJerk-std()-Z : Standard deviation of the body Z-axial linear acceleration were derived in time to obtain Jerk signals. 
+* tBodyGyro-mean()-X : Mean value of X-axial gyroscope 3-axial raw signals
+* tBodyGyro-mean()-Y : Mean value of Y-axial gyroscope 3-axial raw signals
+* tBodyGyro-mean()-Z : Mean value of Z-axial gyroscope 3-axial raw signals
+* tBodyGyro-std()-X : Standard deviation of X-axial gyroscope 3-axial raw signals
+* tBodyGyro-std()-Y : Standard deviation of Y-axial gyroscope 3-axial raw signals
+* tBodyGyro-std()-Z : Standard deviation of Z-axial gyroscope 3-axial raw signals
+* tBodyGyroJerk-mean()-X : Mean value of the body X-axial linear angular velocity were derived in time to obtain Jerk signals.
+* tBodyGyroJerk-mean()-Y : Mean value of the body Y-axial linear angular velocity were derived in time to obtain Jerk signals.
+* tBodyGyroJerk-mean()-Z : Mean value of the body Z-axial linear angular velocity were derived in time to obtain Jerk signals.
+* tBodyGyroJerk-std()-X : Standard deviation of the body X-axial linear angular velocity were derived in time to obtain Jerk signals.
+* tBodyGyroJerk-std()-Y : Standard deviation of the body Y-axial linear angular velocity were derived in time to obtain Jerk signals.
+* tBodyGyroJerk-std()-Z : Standard deviation of the body Z-axial linear angular velocity were derived in time to obtain Jerk signals.
+* tBodyAccMag-mean() : Mean value of calculated magnitude of the tBodyAcc three-dimensional signals by using the Euclidean norm
+* tBodyAccMag-std() : Standard deviation of calculated magnitude of the tBodyAcc three-dimensional signals by using the Euclidean norm
+* tGravityAccMag-mean() : Mean value of calculated magnitude of the tGravityAcc three-dimensional signals by using the Euclidean norm
+* tGravityAccMag-std() : Standard deviation of calculated magnitude of the tGravityAcc three-dimensional signals by using the Euclidean norm
+* tBodyAccJerkMag-mean() : Mean value of calculated magnitude of the tBodyAccJerk three-dimensional signals by using the Euclidean norm
+* tBodyAccJerkMag-std() : Standard deviation of calculated magnitude of the tBodyAccJerk three-dimensional signals by using the Euclidean norm
+* tBodyGyroMag-mean() : Mean value of calculated magnitude of the tBodyGyro three-dimensional signals by using the Euclidean norm
+* tBodyGyroMag-std() : Standard deviation of calculated magnitude of the tBodyGyro three-dimensional signals by using the Euclidean norm
+* tBodyGyroJerkMag-mean() : Mean value of calculated magnitude of the tBodyGyroJerk three-dimensional signals by using the Euclidean norm
+* tBodyGyroJerkMag-std() : Standard deviation of calculated magnitude of the tBodyGyroJerk three-dimensional signals by using the Euclidean norm
+* fBodyAcc-mean()-X : Mean value of tBodyAcc X-axial which is applied by Fast Fourier Transform (FFT).
+* fBodyAcc-mean()-Y : Mean value of tBodyAcc Y-axial which is applied by Fast Fourier Transform (FFT).
+* fBodyAcc-mean()-Z : Mean value of tBodyAcc Z-axial which is applied by Fast Fourier Transform (FFT).
+* fBodyAcc-std()-X : Standard deviation of tBodyAcc X-axial which is applied by Fast Fourier Transform (FFT).
+* fBodyAcc-std()-Y : Standard deviation of tBodyAcc Y-axial which is applied by Fast Fourier Transform (FFT).
+* fBodyAcc-std()-Z : Standard deviation of tBodyAcc Z-axial which is applied by Fast Fourier Transform (FFT).
+* fBodyAcc-meanFreq()-X : Weighted average of the X-axial fBodyAcc frequency components.
+* fBodyAcc-meanFreq()-Y : Weighted average of the Y-axial fBodyAcc frequency components.
+* fBodyAcc-meanFreq()-Z : Weighted average of the Z-axial fBodyAcc frequency components.
+* fBodyAccJerk-mean()-X : Mean value of tBodyAccJerk X-axial which is applied by Fast Fourier Transform (FFT).
+* fBodyAccJerk-mean()-Y : Mean value of tBodyAccJerk Y-axial which is applied by Fast Fourier Transform (FFT).
+* fBodyAccJerk-mean()-Z : Mean value of tBodyAccJerk Z-axial which is applied by Fast Fourier Transform (FFT).
+* fBodyAccJerk-std()-X : Standard deviation of tBodyAccJerk X-axial which is applied by Fast Fourier Transform (FFT).
+* fBodyAccJerk-std()-Y : Standard deviation of tBodyAccJerk Y-axial which is applied by Fast Fourier Transform (FFT).
+* fBodyAccJerk-std()-Z : Standard deviation of tBodyAccJerk Z-axial which is applied by Fast Fourier Transform (FFT).
+* fBodyAccJerk-meanFreq()-X : Weighted average of the X-axial fBodyAccJerk frequency components.
+* fBodyAccJerk-meanFreq()-Y : Weighted average of the Y-axial fBodyAccJerk frequency components.
+* fBodyAccJerk-meanFreq()-Z : Weighted average of the Z-axial fBodyAccJerk frequency components.
+* fBodyGyro-mean()-X : Mean value of tBodyGyro X-axial which is applied by Fast Fourier Transform (FFT).
+* fBodyGyro-mean()-Y : Mean value of tBodyGyro Y-axial which is applied by Fast Fourier Transform (FFT).
+* fBodyGyro-mean()-Z : Mean value of tBodyGyro Z-axial which is applied by Fast Fourier Transform (FFT).
+* fBodyGyro-std()-X : Standard deviation of tBodyGyro X-axial which is applied by Fast Fourier Transform (FFT).
+* fBodyGyro-std()-Y : Standard deviation of tBodyGyro Y-axial which is applied by Fast Fourier Transform (FFT).
+* fBodyGyro-std()-Z : Standard deviation of tBodyGyro Z-axial which is applied by Fast Fourier Transform (FFT).
+* fBodyGyro-meanFreq()-X : Weighted average of the X-axial fBodyGyro frequency components.
+* fBodyGyro-meanFreq()-Y : Weighted average of the Y-axial fBodyGyro frequency components.
+* fBodyGyro-meanFreq()-Z : Weighted average of the Z-axial fBodyGyro frequency components.
+* fBodyAccMag-mean() : Mean value of tBodyAccMag which is applied by Fast Fourier Transform (FFT).
+* fBodyAccMag-std() : Standard deviation of tBodyAccMag which is applied by Fast Fourier Transform (FFT).
+* fBodyAccMag-meanFreq() : Weighted average of the fBodyAccMag frequency components.
+* fBodyBodyAccJerkMag-mean() : Mean value of tBodyBodyAccJerkMag which is applied by Fast Fourier Transform (FFT).
+* fBodyBodyAccJerkMag-std() : Standard deviation of tBodyBodyAccJerkMag which is applied by Fast Fourier Transform (FFT).
+* fBodyBodyAccJerkMag-meanFreq() : Weighted average of the fBodyBodyAccJerkMag frequency components.
+* fBodyBodyGyroMag-mean() : Mean value of tBodyBodyGyroMag which is applied by Fast Fourier Transform (FFT).
+* fBodyBodyGyroMag-std() : Standard deviation of tBodyBodyGyroMag which is applied by Fast Fourier Transform (FFT).
+* fBodyBodyGyroMag-meanFreq() : Weighted average of the fBodyBodyGyroMag frequency components.
+* fBodyBodyGyroJerkMag-mean() : Mean value of tBodyBodyGyroJerkMag which is applied by Fast Fourier Transform (FFT).
+* fBodyBodyGyroJerkMag-std() : Standard deviation tBodyBodyGyroJerkMag which is applied by Fast Fourier Transform (FFT).
+* fBodyBodyGyroJerkMag-meanFreq() : Weighted average of the fBodyBodyGyroJer frequency components.
+
+End
